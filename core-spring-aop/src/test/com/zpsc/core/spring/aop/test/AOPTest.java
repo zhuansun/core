@@ -14,9 +14,10 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class AOPTest {
     @Test
     public void testAop() {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
         Calculator calculator = (Calculator) applicationContext.getBean("calculator");
         int div = calculator.div(2, 1);
         System.out.println(div);
+        applicationContext.close();
     }
 }
