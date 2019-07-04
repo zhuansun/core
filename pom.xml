@@ -19,6 +19,7 @@
 
     <modules>
         <module>core-spring-aop</module>
+        <module>core-spring-tx</module>
     </modules>
 
 
