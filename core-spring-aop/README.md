@@ -3,8 +3,11 @@
 
 本文主要介绍spring的aop，基于注解和XML的简单使用和源码解读, 本文涉及的所有图片，如果不清晰，可以下载PDF文件进行查看：
 
-[spirng-aop源码分析.pdf](https://youdao-note-images.oss-cn-hangzhou.aliyuncs.com/2019-07/spring-aop%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.pdf)
+[点击下载spirng-aop源码分析.pdf](https://youdao-note-images.oss-cn-hangzhou.aliyuncs.com/2019-07/spring-aop%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.pdf)
 
+突然发现本文的图都裂了！各位可以移步跳转到我的个人博客或者CSDN上查看
+- https://pusu.info/2019/07/03/spring%E6%B3%A8%E8%A7%A3AOP%E5%BC%80%E5%8F%91%E5%92%8C%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/
+- https://blog.csdn.net/qq_24821203/article/details/94594268
 
 ## 一、使用
 
