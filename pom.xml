@@ -21,6 +21,7 @@
         <module>core-spring-aop</module>
         <module>core-spring-tx</module>
         <module>core-spring-ext</module>
+        <module>core-spring-ioc</module>
     </modules>
 
 
