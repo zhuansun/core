@@ -19,7 +19,6 @@ public class PersonService {
     public void insert(){
         personDao.insert();
         System.out.println("插入完成...");
-        int a = 10/0;
     }
 
 }
