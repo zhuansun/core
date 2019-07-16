@@ -1,6 +1,8 @@
 import com.zspc.core.spring.ext.MainConfig;
 import org.junit.Test;
+import org.springframework.context.ApplicationEvent;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.event.ContextClosedEvent;
 
 /**
  * @author zhuansunpengcheng
@@ -13,8 +15,8 @@ public class ExtTest {
     public void test(){
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MainConfig.class);
 
+        applicationContext.publishEvent(new ContextClosedEvent(applicationContext));
         applicationContext.close();
-
     }
 
 
